@@ -1,0 +1,37 @@
+tem - html
+style - css
+
+npm run serve
+
+>시간표 : 조회 및 수정 만들기 데이더베이스에 있는걸 불러오는 코딩?
+
+<tr v-for="hour in 8" :key="hour"><!-- 8번반복하는 tr생성 -->
+        <td>{{ hour }}</td>
+        <td>수학</td> <!-- 월요일 시간표 데이터 -->
+        <td>국어</td>
+        <td>사회</td>
+        <td>영어</td>
+        <td>지리</td>
+      </tr>
+
+냥ㄴ야냥ㄴ얀ㅇㅇㄴ
+ㅁㅇ
+ㄹ
+ㅁㅇㄻㅇㄻㄴㅇㄹ
+ㅁㅇㄻㅇㄻㄴㅇㄹㄹ
+ㄴㅇㄹ
+ㄴㅇㄹㄴㅁㄹ
+      시간표 인증키 7d3a66fc4d714011a882c9611a91eb16
+
+      <script> //script
+var api_key = 7d3a66fc4d714011a882c9611a91eb16
+
+export default {
+  name: 'App'
+}
+</script>
+
+
+
+3학년 교과목
+-수학 : 미적
