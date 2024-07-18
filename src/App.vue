@@ -84,20 +84,21 @@
           </tr>
         </table>
       </div>
-      <div>급식표</div>
+      <div><LunchMenu /></div>
     </div>
   </div>
 </template>
 
 <script>
 //script
+import LunchMenu from "./components/LunchMenu.vue";
 
 export default {
   name: "App",
+  components: {
+    LunchMenu,
+  },
 };
-
-//neis 급식 정보 가져오기
-const neis = require("neis");
 </script>
 
 <style scoped>
